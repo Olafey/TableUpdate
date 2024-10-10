@@ -1,0 +1,76 @@
+:root {
+  --bg-color: white;
+  --sec-bg-color: grey;
+  --text-color: black;
+  --button: rgb(59, 59, 240);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 100vh;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.header h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.form input {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  gap: 2rem;
+}
+
+button {
+  background-color: var(--button);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--bg-color);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#displayTable {
+  border-collapse: collapse;
+  border: solid black 0.1rem;
+  margin: 5rem auto;
+  width: 50%;
+  background-color: rgb(50, 92, 229);
+}
+
+#displayTable,
+th,
+td {
+  border: solid 0.12rem black;
+}
+
+td {
+  padding: 1rem;
+  background-color: azure;
+}
